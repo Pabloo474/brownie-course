@@ -76,3 +76,10 @@ Any questions? Join our [Gitter](https://gitter.im/eth-brownie/community) channe
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
+
+Testing priorities:
+1. Brownie Ganache with Mocks: Always
+2. Testnet: (only for integration testing) Always
+3. Brownie mainnet-fork: Optional
+4. Custom mainnet-fork: Optional
+5. Local ganache: Not necesary but usefull to make fast changes
